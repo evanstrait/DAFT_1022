@@ -1,0 +1,24 @@
+1. From the order_items table, find the price of the highest priced order and lowest price order.
+-  3ee6513ae7ea23bdfab5b9ab60bffcb5, 0.85 is the lowest price.
+-  0812eb902a67711a1cb742b3cdaa65ae, 6735 is the highest price.
+2. From the order_items table, what is range of the shipping_limit_date of the orders?
+-  2016-10-08 15:46:32 is the earliest date
+-  2020-02-05 04:30:51 is the most recent date
+3. From the customers table, find the states with the greatest number of customers.
+-  The state of São Paulo, Brazil has the most customers.
+-  The state of Rio de Janeiro has the second most customers.
+-  The state of Minas Gerais has the third most customers.
+4. From the customers table, within the state with the greatest number of customers, find the cities with the greatest number of customers.
+-  São Paulo is the most common in SP, followed by Campinas and Guarulhos.
+5. From the closed_deals table, how many distinct business segments are there (not including null)?
+-  There are 33 distinct business segments.
+6. From the closed_deals table, sum the declared_monthly_revenue for duplicate row values in business_segment and find the 3 business segments with the highest declared monthly revenue (of those that declared revenue).
+-  Top three business segments with highest declared monthly revenue:
+8000000, phone_mobile
+300000, pet
+250000, audio_video_electronics
+7. From the order_reviews table, find the total number of distinct review score values.
+8. In the order_reviews table, create a new column with a description that corresponds to each number category for each review score from 1 - 5, then find the review score and category occurring most frequently in the table.
+9. From the order_reviews table, find the review value occurring most frequently and how many times it occurs.
+-  There are 100,000 reviews, including 1, 2, 3, 4 and 5. The count of each review is as follows:
+'5''57420''4''19200''3''8287''2''3235''1''11858'
